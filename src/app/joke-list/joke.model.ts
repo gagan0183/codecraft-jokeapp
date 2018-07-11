@@ -11,7 +11,7 @@ class Joke {
 
     toggle() {
         this.hide = !this.hide;
-    }
+    }    
 }
 
 export default Joke;

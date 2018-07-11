@@ -31,4 +31,8 @@ export class JokeListComponent implements OnInit {
   addJoke(ppppppppp) {
     this.jokes.unshift(ppppppppp);
   }
+
+  delete(index) {
+    this.jokes.splice(index, 1);
+  }
 }

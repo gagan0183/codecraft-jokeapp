@@ -2,4 +2,5 @@
   <h4 class="card-title">{{data.setup}}</h4>
   <p class="card-text" [hidden]="data.hide">{{data.punchline}}</p>
   <a (click)="data.toggle()" class="btn btn-warning">Tell me</a>
+  <a (click)="delete(index)" class="btn btn-warning">Remove</a>
 </div>
